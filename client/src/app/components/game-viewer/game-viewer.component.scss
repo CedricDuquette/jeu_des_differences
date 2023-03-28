@@ -1,0 +1,48 @@
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.card-row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 16px;
+    padding: 16px;
+}
+
+.game-cards {
+    position: absolute;
+    bottom: 55%;
+    left: 50%;
+    translate: -50% 50%;
+    width: 80%;
+}
+
+.left-button {
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    width: 142px;
+}
+
+.right-button {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    width: 142px;
+}
+
+.home-button {
+    position: absolute;
+    left: 50%;
+    bottom: 16px;
+    translate: -50%;
+}
+
+.buttons {
+    margin: auto;
+    padding: 50px;
+}
